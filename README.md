@@ -1,7 +1,8 @@
 # Using Import Value in AWS CDK for Cross Stack References
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
+[bobbyhadz.com](https://bobbyhadz.com/blog/import-value-aws-cdk-cross-stack)
+
 ## How to Use
 
 1. Clone the repository
