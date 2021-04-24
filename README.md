@@ -25,7 +25,7 @@ npx cdk deploy my-s3-stack
 npx cdk deploy my-cdk-stack
 ```
 
-4. Open the AWS CloudFormation Console and the stack should be created in your
+4. Open the AWS CloudFormation Console and the stacks should be created in your
    default region
 
 5. Cleanup
