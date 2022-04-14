@@ -1,8 +1,8 @@
 /* eslint-disable max-classes-per-file */
-import * as lambda from '@aws-cdk/aws-lambda';
-import {NodejsFunction} from '@aws-cdk/aws-lambda-nodejs';
-import * as s3 from '@aws-cdk/aws-s3';
-import * as cdk from '@aws-cdk/core';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
+import {NodejsFunction} from 'aws-cdk-lib/aws-lambda-nodejs';
+import * as s3 from 'aws-cdk-lib/aws-s3';
+import * as cdk from 'aws-cdk-lib';
 import * as path from 'path';
 
 export class S3BucketStack extends cdk.Stack {
