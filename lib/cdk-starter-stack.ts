@@ -33,7 +33,7 @@ export class MyCdkStack extends cdk.Stack {
       environment: {
         BUCKET_NAME: importedBucketValue.toString(),
       },
-      runtime: lambda.Runtime.NODEJS_16_X,
+      runtime: lambda.Runtime.NODEJS_18_X,
       timeout: cdk.Duration.seconds(4),
       handler: 'main',
       entry: path.join(__dirname, `/../src/my-lambda/index.js`),
